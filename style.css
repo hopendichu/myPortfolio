@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: grey;
+    font-family: "Poppins", "sans-serif";
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: white;
+}
+
+a, .btn{
+
+}
+
+nav, .nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover{
+    color: #f38bae;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+
+}
+
+#logo{
+    font-size: 2rem;
+    color:white;
+}
+
+section{
+    margin:0;
+    height: 96vh;
+    padding-top: 4vh;
+    box-sizing: border-box;
+    min-height: fit-content;
+
+}
+
+.section-container{
+    display: flex;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.profilePic{
+    display: flex;
+    height: 400px;
+    width:400px;
+    margin: auto 0;
+    border-radius: 30px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.textSection p{
+    font-weight:600;
+}
+
+.textSection_p1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.textSection_p2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.textSection{
+    font-size: 1.5rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+     font-weight: 600;
+     padding: 1rem;
+     transition: all 300 ms ease;
+     width: 8rem;
+     border-radius: 2rem;
+     
+}
+
+.btn-1{
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.card-container{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 2px 16px;
+}
+
+.aboutPic{
+    height: 400px;
+    width:400px;
+}
